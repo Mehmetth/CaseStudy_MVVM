@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CaseStudy</string>
+
+    <string name="home_fragment_title">Hizmet piş\nağzıma düş</string>
+    <string name="home_weddingImage_bottom_title">FIRST TIME NEWLY WEDS</string>
+    <string name="home_weddingImage_bottom_text">WEDDING PHOTOGRAPHERS FROM 540 TL</string>
+    <string name="home_weddingImage_text">-15%\nİNDİRİM</string>
+
+    <string name="all_services">All services</string>
+    <string name="popular_days">Popular these days</string>
+    <string name="latest_blog">Latest from the blog</string>
+
+    <string name="pros_near">pros near you</string>
+    <string name="avarage_rating">avarage rating</string>
+    <string name="last_month_one">Last month </string>
+    <string name="last_month_two"> cleaning job completed</string>
+    <string name="free_charge">Free of charge</string>
+    <string name="service_guaranteed">Service Guaranteed</string>
+
+    <string name="detail_how_it_works_title">How it works</string>
+    <string name="answer_question">Answer the question</string>
+    <string name="get_quotes">Get Quotes</string>
+    <string name="compare_prices">Compare the prices and decide</string>
+    <string name="detail_button_text">Devam</string>
+
+    <string name="close">Kapat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

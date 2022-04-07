@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.honeycomb.casestudy.presentation.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailServiceFragment"
+            app:destination="@id/detailServiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailServiceFragment"
+        android:name="com.honeycomb.casestudy.presentation.detail.DetailServiceFragment"
+        android:label="fragment_detail_service"
+        tools:layout="@layout/fragment_detail_service" >
+        <argument
+            android:name="serviceId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.honeycomb.casestudy.presentation.blog.BlogFragment"
+        android:label="fragment_blog"
+        tools:layout="@layout/fragment_blog" >
+        <argument
+            android:name="blogUrl"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>
